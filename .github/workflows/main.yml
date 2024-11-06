@@ -1,0 +1,13 @@
+name: My Workflow
+
+on: [push]
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "Hello World!"
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+      - run: tree
+      
