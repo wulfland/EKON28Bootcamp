@@ -14,6 +14,8 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 
 ## 📆 Agenda
 
+Edit
+
 ### Part 1: 👥 Collaborate using GitHub
 
 - [ ] Introduction to GitHub
