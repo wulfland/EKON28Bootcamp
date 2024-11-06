@@ -10,4 +10,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
       - run: tree
-      
+
+  job2:
+    runs-on: ubuntu-latest
+    needs: [job1]
+    steps:
+      - run: echo "Hello World"
